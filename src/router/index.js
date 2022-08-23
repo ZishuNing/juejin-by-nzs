@@ -33,13 +33,24 @@ const routes = [
     path: '/show',
     name: 'Show',
     component: () => import(/* webpackChunkName: "show" */ '../views/Show.vue')
+  },
+  {
+    path: '/article/:id',
+    name: 'Article',
+    component: () => import(/* webpackChunkName: "article" */ '../views/Article.vue')
   }
 ]
 
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    return {
+      x: 0,
+      y: 0
+    }
+  },
 })
 
 export default router

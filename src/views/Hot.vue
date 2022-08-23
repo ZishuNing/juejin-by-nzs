@@ -1,5 +1,5 @@
 <template>
-  <div>沸点</div>
+  <div><img src="../assets/image/hotspot.png" width="1700px" alt="" /></div>
 </template>
 
 <script>

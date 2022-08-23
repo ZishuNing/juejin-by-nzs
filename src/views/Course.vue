@@ -1,5 +1,5 @@
 <template>
-  <div>课程</div>
+  <div><img src="../assets/image/class.png" width="1700px" alt="" /></div>
 </template>
 
 <script>
