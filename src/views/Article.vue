@@ -10,8 +10,6 @@
         </div>
       </div>
     </div>
-    <img src="../assets/image/advs3.png" class="advs3" />
-    <img src="../assets/image/advs4.png" class="advs4" />
   </div>
 </template>
 
@@ -101,20 +99,6 @@ export default {
     top: 130px;
     left: 175px;
   }
-  .advs3 {
-    cursor: pointer;
-    width: 300px;
-    position: absolute;
-    top: 470px;
-    right: 270px;
-  }
-  .advs4 {
-    cursor: pointer;
-    width: 300px;
-    position: absolute;
-    top: 80px;
-    right: 270px;
-  }
   .article {
     width: 820px;
     background-color: #fff;
@@ -124,10 +108,10 @@ export default {
   }
 }
 .toc-fixed {
-  position: absolute;
+  position: fixed;
   width: 270px;
   right: 260px;
-  top: 1100px;
+  top: 80px;
   background-color: #fff;
   padding: 20px 20px 0 20px;
   border-radius: 3%;
