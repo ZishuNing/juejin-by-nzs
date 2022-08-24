@@ -10,7 +10,7 @@
         </ul>
       </div>
       <div class="container-left-middle">
-        <div class="container-left-middle-1" v-for="item in this.ArticleData" :key="item.id">
+        <div class="container-left-middle-1" v-for="item in this.ArticleData" :key="item.id" @click="goToArticle(item.id)">
           <ul>
             <li>{{ item.name }}</li>
             <li>|</li>
@@ -21,7 +21,7 @@
           <div class="div1">
             <br />
             <span
-              ><h3 @click="goToArticle(item.id)">{{ item.title }}</h3></span
+              ><h3>{{ item.title }}</h3></span
             >
             <div class="span">
               <span>{{ item.intro }}</span>
@@ -126,9 +126,9 @@ export default {
     }
     .container-left-middle-1 {
       cursor: pointer;
-      margin-left: 10px;
       ul {
         display: flex;
+        padding-left: 10px;
         li {
           margin-top: 15px;
           font-size: 13px;
@@ -141,6 +141,9 @@ export default {
         li:nth-of-type(n + 2) {
           color: grey;
         }
+      }
+      .div1 {
+        padding-left: 10px;
       }
       .shu {
         margin-left: 5px;
@@ -170,6 +173,9 @@ export default {
         font-family: Arial, Helvetica, sans-serif;
         color: #86909c;
       }
+    }
+    .container-left-middle-1:hover {
+      background-color: rgb(248, 248, 248);
     }
   }
   .advs,
