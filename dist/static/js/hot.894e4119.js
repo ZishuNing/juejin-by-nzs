@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkjuejin"]=self["webpackChunkjuejin"]||[]).push([[730],{32:function(t,n,u){u.r(n),u.d(n,{default:function(){return a}});var e=function(){var t=this;t._self._c;return t._m(0)},i=[function(){var t=this,n=t._self._c;return n("div",[n("img",{attrs:{src:u(101),width:"1700px",alt:""}})])}],r={},s=r,c=u(1),l=(0,c.Z)(s,e,i,!1,null,null,null),a=l.exports},101:function(t,n,u){t.exports=u.p+"static/img/hotspot.382e7a3a.png"}}]);
-//# sourceMappingURL=hot.894e4119.js.map

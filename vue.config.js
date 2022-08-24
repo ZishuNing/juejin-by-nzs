@@ -3,7 +3,6 @@ module.exports = defineConfig({
   transpileDependencies: true
 })
 module.exports = {
-  assetsDir: 'static',
   parallel: false,
   publicPath: './',
 };

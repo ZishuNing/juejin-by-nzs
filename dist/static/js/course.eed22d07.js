@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkjuejin"]=self["webpackChunkjuejin"]||[]).push([[449],{921:function(n,t,u){u.r(t),u.d(t,{default:function(){return f}});var s=function(){var n=this;n._self._c;return n._m(0)},e=[function(){var n=this,t=n._self._c;return t("div",[t("img",{attrs:{src:u(739),width:"1700px",alt:""}})])}],i={},r=i,c=u(1),l=(0,c.Z)(r,s,e,!1,null,null,null),f=l.exports},739:function(n,t,u){n.exports=u.p+"static/img/class.5fc13bfb.png"}}]);
-//# sourceMappingURL=course.eed22d07.js.map
